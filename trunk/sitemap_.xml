@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://www.miequipodeportivo.com/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/reset.php</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/aviso.php</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/gestor-equipos.php</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/gestor-torneos.php</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/gestor-plantilla.php</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/gestor-partidos.php</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/gestor-resultados.php</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/gestor-clasificacion.php</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/recordatorio-asistencia.php</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/estadisticas.php</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/fotos-videos.php</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/omemo</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/tercer-grado</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/wwwmiequipodeportivocom</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/bar-jaen-i</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/colegio-san-juan-evangelista</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/hello-kity</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-7/peluches-atomicos</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-7/cdtablas-de-daimiel</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-7/los-maquis</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-7/real-madrid-cf-inventado</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/la-pajareria-prod</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/pokemon-vintage</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/tijuana-fc</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/pasodelaarena</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/praha</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/praha_1</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/racinguerceta/2</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/wwwgepolicialeses/2</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/vivo-ctm/2</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/tecnica-zero/2</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/restaurante-berrendero-fs/2</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/the-green-park/2</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/bar-pizarro-fs/2</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/sporting-70/2</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/tercer-tiempo/2</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/violadores-del-futbol/2</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/old-school/3</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/global-gladiators/3</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/praha/3</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/gansos-cuajados/3</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/nigas-crew/3</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/osos-amorosos/3</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/la-pajareria-prod/3</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/ulises/3</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/los-ultimos/3</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/catenaccio/4</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/patapun/4</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/locos-bajitos/4</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/los-tuercebotas/4</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/alcohol/4</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/independientes/4</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/manque-pierda/4</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/toke-toke/4</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol/islenos/4</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/carriche-verdental-b/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/carnicer-gaviota/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/escuela-javier-limones-b/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/parque-cataluna-b/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/escuela-javier-limones-c/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/parque-cataluna-a/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/escuelas-carnicer-c/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/escuela-javier-limones-a/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/escuelas-carnicer-a/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/carriche-verdental-c/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/carriche-verdental-a/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/torrepista/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/cd-la-zarzuela-xxi/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/carnicer-gaviota/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/severo-torrejon/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/escuelas-carnicer-b/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/futbol-sala/colegio-alba/5</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/escateflown/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/sixers-04/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/los-prosikitos/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/atletico-chopera/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/los-mvp/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/atletico-barbate/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/emb/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/71-avos/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/amildana-de-la-rajuadara-cb/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/minnesota-de-bastos/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/valcude-alcobendas-"a"/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/chuletas-de-cordero/45</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/gansos-cuajados/46</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/global-gladiators/46</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/la-pajareria-prod/46</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/los-ultimos/46</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/nigas-crew/46</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/old-school/46</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/osos-amorosos/46</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/tercer-grado/46</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/deporte/baloncesto/ulises/46</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/2</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/4</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/5</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/6</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/7</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/8</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/9</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/10</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/11</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/12</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/13</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/14</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/15</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/16</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/17</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/18</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/19</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/20</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/21</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/22</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/23</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/24</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/25</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/26</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/27</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/28</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/29</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/30</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/31</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/32</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/33</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/34</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/35</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/36</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/37</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/38</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/39</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/40</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/42</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/43</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/45</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/46</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/47</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/48</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/49</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/50</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/51</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/52</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/53</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/54</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/55</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/56</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/57</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/58</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/59</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/60</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/61</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/62</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://www.miequipodeportivo.com/partido/63</loc>
+  <priority>0.55</priority>
+</url>
+</urlset>

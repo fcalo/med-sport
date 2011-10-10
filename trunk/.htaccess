@@ -1,0 +1,11 @@
+SetEnv PHP_VER 5
+Options -Indexes
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^miequipodeportivo\.com$ [NC]
+RewriteRule ^(.*)$ http://www.miequipodeportivo.com/$1 [R=301,QSA,L]
+Rewriterule ^deporte/(.*)/(.*)/(.*)/ /deporte/$1/$2/$3 [r=301,L]
+Rewriterule ^deporte/(.*)/(.*)/(.*) equipo.php?d=$1&n=$2&t=$3 [L]
+Rewriterule ^deporte/(.*)/(.*)/ /deporte/$1/$2 [r=301,L]
+Rewriterule ^deporte/(.*)/(.*) equipo.php?d=$1&n=$2 [L]
+Rewriterule ^partido/(.*)/ partido/$1 [r=301,L]
+Rewriterule ^partido/(.*) partido.php?k=$1 [L]
