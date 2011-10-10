@@ -1,0 +1,950 @@
+<config>
+	
+	<entity>
+		<id_entity>2</id_entity>
+		<title>Provincias</title>
+		<table>t_provincias</table>
+		<maintance_type>0</maintance_type>
+		<fields>
+			<field>
+				<name>id_provincia</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<null>N</null>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>provincia</name>
+				<description>Provincia</description>
+				<type>varchar(255)</type>
+				<null>S</null>
+				<in_list>S</in_list>
+				<combo_description>S</combo_description>
+			</field>
+		</fields>
+	</entity>
+	
+	<entity>
+		<id_entity>3</id_entity>
+		<title>Municipios</title>
+		<table>t_municipios</table>
+		<maintance_type>0</maintance_type>
+		<fields>
+			<field>
+				<name>id_municipio</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>id_provincia</name>
+				<description>Provincia</description>
+				<type>int(11)</type>
+				<in_list>S</in_list>
+				<entity_ref>2</entity_ref>
+			</field>
+			<field>
+				<name>municipio</name>
+				<description>Municipio</description>
+				<type>varchar(255)</type>
+				<in_list>S</in_list>
+				<combo_description>S</combo_description>
+			</field>
+		</fields>
+	</entity>
+	
+	<entity>
+		<id_entity>4</id_entity>
+		<title>Deportes</title>
+		<table>t_deportes</table>
+		<maintance_type>0</maintance_type>
+		<fields>
+			<field>
+				<name>id_deporte</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>deporte</name>
+				<description>Deporte</description>
+				<type>varchar(255)</type>
+				<in_list>S</in_list>
+				<combo_description>S</combo_description>
+			</field>
+		</fields>
+	</entity>
+	<entity>
+		<id_entity>5</id_entity>
+		<title>Temporadas</title>
+		<table>t_temporadas</table>
+		<maintance_type>0</maintance_type>
+		<fields>
+			<field>
+				<name>id_temporada</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>temporada</name>
+				<description>Temporada</description>
+				<type>varchar(20)</type>
+				<in_list>S</in_list>
+				<combo_description>S</combo_description>
+			</field>
+		</fields>
+	</entity>
+	<entity>
+		<id_entity>6</id_entity>
+		<title>Tipos Plant.</title>
+		<table>t_tipos_plantilla</table>
+		<maintance_type>0</maintance_type>
+		<fields>
+			<field>
+				<name>id_tipo_plantilla</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>tipo_plantilla</name>
+				<description>Tipo</description>
+				<type>varchar(30)</type>
+				<in_list>S</in_list>
+				<combo_description>S</combo_description>
+			</field>
+		</fields>
+	</entity>
+	
+	<entity>
+		<id_entity>10</id_entity>
+		<title>Mis equipos</title>
+		<table>t_equipos</table>
+		<help_file_list>mis_equipos.html</help_file_list>
+		<help_file_detail>mis_equipos.html</help_file_detail>
+		<by_user>S</by_user>
+                <info>Los equipos qeu gestiono</info>
+		<fields>
+			<field>
+				<name>id_equipo</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<null>N</null>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>nom_equipo</name>
+				<description>Equipo</description>
+				<type>varchar(255)</type>
+				<null>N</null>
+				<in_list>S</in_list>
+				<combo_description>S</combo_description>
+                                <info>El nombre del equipo</info>
+			</field>
+			<field>
+				<name>id_deporte</name>
+				<description>Deporte</description>
+				<type>int(11)</type>
+				<null>N</null>
+				<entity_ref>4</entity_ref>
+                                <info>En que deporte participa</info>
+			</field>
+			<field>
+				<name>presentacion</name>
+				<description>Presentación</description>
+				<type>text</type>
+				<fckeditor>S</fckeditor>
+                                <info>Un texto contando lo que quieras sobre el equipo</info>
+			</field>
+			<field>
+				<name>logo</name>
+				<description>Escudo</description>
+				<type>varchar(255)</type>
+				<file>S</file>
+				<sizes>
+					<size>
+						<width>120</width>
+					</size>
+				</sizes>
+			</field>
+		</fields>
+		<entity>
+			<id_entity>101</id_entity>
+			<title>Libro de visitas</title>
+			<table>t_equipos_visitas</table>
+			<fields>
+				<field>
+					<name>id_equipo_visita</name>
+					<description>id</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<auto_increment>S</auto_increment>
+					<primary_key>S</primary_key>
+				</field>
+				<field>
+					<name>nombre</name>
+					<description>Nombre</description>
+					<type>varchar(50)</type>
+					<in_list>S</in_list>
+					<null>N</null>
+				</field>
+				<field>
+					<description>Email</description>
+					<name>email</name>
+					<type>varchar(255)</type>
+				</field>
+				<field>
+					<name>comentario</name>
+					<description>Comentario</description>
+					<type>text</type>
+					<null>N</null>
+				</field>	
+			</fields>
+		</entity>
+	</entity>
+	
+	<entity>
+		<id_entity>11</id_entity>
+		<title>Torneos</title>
+		<table>t_torneos</table>
+		<help_file_list>torneos.html</help_file_list>
+		<help_file_detail>torneos.html</help_file_detail>
+                <layout>1</layout>
+
+		<by_user>S</by_user>
+			<fields>
+				<field>
+					<name>id_torneo</name>
+					<description>id</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<auto_increment>S</auto_increment>
+					<primary_key>S</primary_key>
+				</field>
+				<field>
+					<name>id_equipo</name>
+					<description>Equipo</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<in_list>S</in_list>
+					<entity_ref>10</entity_ref>
+                                        <info>Cual de tus equipos es el que particia en este torneo</info>
+				</field>
+				<field>
+					<name>temporada</name>
+					<description>Temporada</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<entity_ref>5</entity_ref>
+                                        <info>Temporada en la que se disputa el torneo</info>
+				</field>
+				<field>
+					<name>nom_torneo</name>
+					<description>Torneo</description>
+					<type>varchar(255)</type>
+					<null>N</null>
+					<combo_description>S</combo_description>
+					<in_list>S</in_list>
+                                        <info>Nombre del torneo</info>
+				</field>
+				<field>
+					<name>puntos_victoria</name>
+					<description>Puntos victoria</description>
+					<type>int(1)</type>
+                                        <info>Número de puntos que se lleva el equipo que gana un partido</info>
+				</field>
+				<field>
+					<name>puntos_empate</name>
+					<description>Puntos empate</description>
+					<type>int(1)</type>
+                                        <info>Número de puntos que se lleva el equipo que empata un partido</info>
+				</field>
+				<field>
+					<name>puntos_derrota</name>
+					<description>Puntos derrota</description>
+					<type>int(1)</type>
+                                        <info>Número de puntos que se lleva el equipo que pierde un partido</info>
+				</field>
+			</fields>
+		<entity>
+			<id_entity>111</id_entity>
+			<title>Resto equipos torneo</title>
+			<table>t_torneos_equipos</table>
+			<by_user>S</by_user>
+			<fields>
+				<field>
+					<name>id_torneos_equipos</name>
+					<description>id</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<auto_increment>S</auto_increment>
+					<primary_key>S</primary_key>
+				</field>
+				<field>
+					<name>nom_equipo</name>
+					<description>Equipo</description>
+					<type>varchar(255)</type>
+					<null>N</null>
+					<in_list>S</in_list>
+					<combo_description>S</combo_description>
+                                        <info>Equipo rival en el torneo que participa tu equipo</info>
+				</field>
+			</fields>
+		</entity>
+	</entity>
+	
+	
+	<entity>
+		<id_entity>12</id_entity>
+		<title>Plantilla</title>
+		<table>t_plantilla</table>
+		<help_file_list>plantilla.html</help_file_list>
+		<help_file_detail>plantilla.html</help_file_detail>
+		<by_user>S</by_user>
+			<fields>
+				<field>
+					<name>id_plantilla</name>
+					<description>id</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<auto_increment>S</auto_increment>
+					<primary_key>S</primary_key>
+				</field>
+				<field>
+					<name>id_equipo</name>
+					<description>Equipo</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<in_list>S</in_list>
+					<entity_ref>10</entity_ref>
+                                        <info>De que equipo es integrante</info>
+				</field>
+				<field>
+					<name>temporada</name>
+					<description>Temporada</description>
+					<type>int(11)</type>
+					<null>N</null>
+                                        <in_list>S</in_list>
+					<entity_ref>5</entity_ref>
+                                        <info>Temporada en la que pertenece o perteneció al equipo</info>
+				</field>
+				<field>
+					<name>tipo</name>
+					<description>Tipo</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<entity_ref>6</entity_ref>
+                                        <info>Cual es su función</info>
+				</field>
+				<field>
+					<name>nombre</name>
+					<description>Nombre</description>
+					<type>varchar(255)</type>
+					<null>N</null>
+					<in_list>S</in_list>
+					<combo_description>S</combo_description>
+                                        <info>Nombre o Alias con el que conoceis al jugador</info>
+				</field>
+				<field>
+					<name>puesto</name>
+					<description>Puesto</description>
+					<type>varchar(30)</type>
+                                        <info>Puesto en el que suele jugar</info>
+				</field>
+				<field>
+					<name>numero</name>
+					<description>Numero</description>
+					<type>int(3)</type>
+                                        <info>Número o dorsal que lleva</info>
+				</field>
+				<field>
+					<name>fec_nacimiento</name>
+					<description>Fecha de nacimiento</description>
+					<type>Date</type>
+                                        <info>Fecha de nacimiento, si no la sabes o no quieres, no la pongas</info>
+				</field>
+				<field>
+					<name>ind_admin</name>
+					<description>No permitir solicitar identidad</description>
+					<type>char(1)</type>
+                                        <info>Si marcas este check no permitiras recibir peticiones de este jugador para que participen en la página del equipo</info>
+				</field>
+				<field>
+					<name>imagen</name>
+					<description>Imagen</description>
+					<type>varchar(255)</type>
+					<file>S</file>
+					<sizes>
+						<size>
+							<width>48</width>
+						</size>
+						<size>
+							<width>200</width>
+						</size>
+					</sizes>
+				</field>
+			</fields>
+	</entity>
+	
+	<entity>
+		<id_entity>13</id_entity>
+		<title>Mis partidos</title>
+		<table>t_partidos</table>
+		<by_user>S</by_user>
+		<layout>1</layout>
+		<fields>
+			<field>
+				<name>id_partido</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<null>N</null>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>id_equipo</name>
+				<description>Equipo</description>
+				<type>int(11)</type>
+				<null>N</null>
+				<entity_ref>10</entity_ref>
+                                <info>Equipo al que pertenece este partido</info>
+			</field>
+			<field>
+				<name>id_torneo</name>
+				<description>Torneo</description>
+				<type>int(11)</type>
+				<null>N</null>
+				<in_list>S</in_list>
+				<entity_ref>11</entity_ref>
+                                <info>Torneo al que pertenece este partido</info>
+			</field>
+			<field>
+				<name>fecha</name>
+				<description>Fecha</description>
+				<type>date</type>
+				<in_list>S</in_list>
+				<null>N</null>
+                                <info>Fecha en la que se disputó o disputará el partido</info>
+			</field>
+			<field>
+				<name>hora</name>
+				<description>Hora</description>
+				<type>varchar(8)</type>
+                                <info>Hora del partido, si la sabes</info>
+			</field>
+			<field>
+				<name>lugar</name>
+				<description>Lugar</description>
+				<type>varchar(100)</type>
+                                <info>Campo o pabellón donde se disputará el partido, si lo sabes</info>
+			</field>
+			<field>
+				<name>jornada</name>
+				<description>Jornada</description>
+				<type>int(2)</type>
+				<null>N</null>
+                                <info>Jornada del torneo a la que pertenece este partido</info>
+			</field>
+			<field>
+				<name>ind_visitante</name>
+				<description>Jugado como visitante</description>
+				<type>char(1)</type>
+                                <info>Marca este check si tu equipo juega de vistante</info>
+			</field>
+			<field>
+				<name>ind_jugado</name>
+				<description>Partido ya jugado</description>
+				<type>char(1)</type>
+                                <info>Marca este check si el partido ya se ha jugado</info>
+			</field>
+			<field>
+				<name>rival</name>
+				<description>Rival</description>
+				<type>int(11)</type>
+				<in_list>S</in_list>
+				<null>N</null>
+				<entity_ref>111</entity_ref>
+                                <info>Equipo rival de entre todos los que hayas dado de alta en 'Resto Equipos' en el gestor de 'Torneos'</info>
+			</field>
+			<field>
+				<name>goles_mios</name>
+				<description>Goles/Puntos mios</description>
+				<type>int(3)</type>
+                                <info>Goles/Puntos de tu equipo</info>
+			</field>
+			<field>
+				<name>goles_rival</name>
+				<description>Goles/Puntos rival</description>
+				<type>int(2)</type>
+                                <info>Goles/Puntos del equipo rival</info>
+			</field>
+			<field>
+				<name>cronica</name>
+				<description>Previa/Crónica</description>
+				<type>text</type>
+				<fckeditor>S</fckeditor>
+                                <info>Escribe lo que quieras del partido antes o despues de que se haya disputado</info>
+			</field>
+		</fields>
+		<entity>
+			<id_entity>133</id_entity>
+			<title>Asistencia prevista</title>
+			<hook_child>asistencia_prevista.php</hook_child>
+			<table>t_partidos_asistencia</table>
+			<fields>
+				<field>
+					<name>id_partido_asistencia</name>
+					<description>id</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<auto_increment>S</auto_increment>
+					<primary_key>S</primary_key>
+				</field>
+				<field>
+					<name>id_plantilla</name>
+					<description>Jugador</description>
+					<type>varchar(255)</type>
+					<entity_ref>12</entity_ref>
+					<in_list>S</in_list>
+				</field>	
+				<field>
+					<name>ind_asistencia</name>
+					<description>Asistir�</description>
+					<type>char(1)</type>
+				</field>
+			</fields>
+		</entity>
+		<entity>
+			<id_entity>131</id_entity>
+			<title>Quién jugó</title>
+			<hook_child>quien_jugo_partido.php</hook_child>
+			<table>t_partidos_plantilla</table>
+			<fields>
+				<field>
+					<name>id_partido_plantilla</name>
+					<description>id</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<auto_increment>S</auto_increment>
+					<primary_key>S</primary_key>
+				</field>
+				<field>
+					<name>id_plantilla</name>
+					<description>Jugador</description>
+					<type>varchar(255)</type>
+					<entity_ref>12</entity_ref>
+					<in_list>S</in_list>
+				</field>	
+				<field>
+					<name>goles</name>
+					<description>Goles/Puntos</description>
+					<type>int(3)</type>
+				</field>
+				<field>
+					<name>uno</name>
+					<description>De uno</description>
+					<type>int(3)</type>
+				</field>
+				<field>
+					<name>dos</name>
+					<description>De dos</description>
+					<type>int(3)</type>
+				</field>
+				<field>
+					<name>tres</name>
+					<description>De tres</description>
+					<type>int(3)</type>
+				</field>
+				<field>
+					<name>ind_amonestacion</name>
+					<description>Amonestaci�n</description>
+					<type>char(1)</type>
+				</field>
+				<field>
+					<name>ind_exclusion</name>
+					<description>Expulsi�n/Exclusi�n</description>
+					<type>char(1)</type>
+				</field>
+				<field>
+					<name>faltas</name>
+					<description>Faltas</description>
+					<type>int(3)</type>
+				</field>
+			</fields>
+		</entity>
+		<entity>
+			<id_entity>132</id_entity>
+			<title>Comentarios</title>
+			<table>t_partidos_comentarios</table>
+			<fields>
+				<field>
+					<name>id_partido_comentario</name>
+					<description>id</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<auto_increment>S</auto_increment>
+					<primary_key>S</primary_key>
+				</field>
+				<field>
+					<name>nombre</name>
+					<description>Nombre</description>
+					<type>varchar(50)</type>
+					<in_list>S</in_list>
+					<null>N</null>
+				</field>
+				<field>
+					<name>email</name>
+					<description>Email</description>
+					<type>varchar(255)</type>
+				</field>
+				<field>
+					<name>comentario</name>
+					<description>Comentario</description>
+					<type>text</type>
+					<null>N</null>
+				</field>	
+			</fields>
+		</entity>
+	</entity>
+	
+	<entity>
+		<id_entity>14</id_entity>
+		<title>Otros partidos</title>
+		<table>t_otros_partidos</table>
+		<help_file_list>otros_partidos.html</help_file_list>
+		<help_file_detail>otros_partidos.html</help_file_detail>
+		<searchable>S</searchable>
+		<by_user>S</by_user>
+			<fields>
+				<field>
+					<name>id_partido</name>
+					<description>id</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<auto_increment>S</auto_increment>
+					<primary_key>S</primary_key>
+				</field>
+				<field>
+					<name>fecha</name>
+					<description>Fecha</description>
+					<type>date</type>
+					<in_list>S</in_list>
+					<null>N</null>
+                                        <info>Fecha en la que se disputó o disputará el partido</info>
+				</field>
+				<field>
+					<name>id_torneo</name>
+					<description>Torneo</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<in_list>S</in_list>
+					<entity_ref>11</entity_ref>
+                                        <info>Torneo al que corresponde este partido</info>
+				</field>
+				<field>
+					<name>jornada</name>
+					<description>Jornada</description>
+					<type>int(2)</type>
+					<in_list>S</in_list>
+					<null>N</null>
+                                        <info>Jornada del torneo a la que corresponde este partido</info>
+				</field>
+				<field>
+					<name>local</name>
+					<description>Local</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<in_list>S</in_list>
+					<entity_ref>111</entity_ref>
+                                        <info>Equipo que juega como local en el partido. De los que hayas dado de alta en 'Resto Equipos' en el gestor de 'Torneos'</info>
+				</field>
+
+				<field>
+					<name>visitante</name>
+					<description>Visitante</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<entity_ref>111</entity_ref>
+                                        <info>Equipo que juega como visitante en el partido. De los que hayas dado de alta en 'Resto Equipos' en el gestor de 'Torneos'</info>
+				</field>
+				<field>
+					<name>goles_local</name>
+					<description>Goles/Puntos local</description>
+					<type>int(3)</type>
+                                        <info>Goles o puntos del equipo local</info>
+				</field>
+				<field>
+					<name>goles_visitante</name>
+					<description>Goles/Puntos visitante</description>
+					<type>int(3)</type>
+                                        <info>Goles o puntos del equipo visitante</info>
+				</field>
+			</fields>
+	</entity>
+	
+	
+	<entity>
+		<id_entity>19</id_entity>
+		<title>Equipos torneo</title>
+		<table>v_equipos_torneo</table>
+		<maintance_type>0</maintance_type>
+		<by_user>S</by_user>
+		<fields>
+			<field>
+				<name>id_torneos_equipos</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<null>N</null>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>nom_equipo</name>
+				<description>Equipo</description>
+				<type>varchar(255)</type>
+				<null>S</null>
+				<in_list>S</in_list>
+				<combo_description>S</combo_description>
+			</field>
+			<field>
+				<name>id_torneo</name>
+				<description>Torneo</description>
+				<type>int(11)</type>
+			</field>
+		</fields>
+	</entity>
+	
+	<entity>
+		<id_entity>15</id_entity>
+		<title>Clasificaciones</title>
+		<table>t_clasificaciones</table>
+		<help_file_list>clasificaciones.html</help_file_list>
+		<help_file_detail>clasificaciones.html</help_file_detail>
+		<layout>1</layout>
+		<by_user>S</by_user>
+		<fields>
+			<field>
+				<name>id_clasificacion</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<null>N</null>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>id_torneo</name>
+				<description>Torneo</description>
+				<type>int(11)</type>
+				<null>N</null>
+				<in_list>S</in_list>
+				<entity_ref>11</entity_ref>
+                                <info>Torneo al que pertenece esta clasificación</info>
+			</field>
+			<field>
+				<name>fecha</name>
+				<description>Fecha</description>
+				<type>date</type>
+				<in_list>S</in_list>
+				<null>N</null>
+                                <info>Fecha en la que se genera la clasificación</info>
+			</field>
+			<field>
+				<name>jornada</name>
+				<description>Jornada</description>
+				<type>int(3)</type>
+				<in_list>S</in_list>
+                                <info>Jornada del torneo a la que pertenece la clasificación</info>
+			</field>
+		</fields>
+		<entity>
+			<id_entity>151</id_entity>
+			<title>Tabla</title>
+			<table>t_clasificaciones_tabla</table>
+			<by_user>S</by_user>
+			<fields>
+				<field>
+					<name>id_clasificaciones_table</name>
+					<description>id</description>
+					<type>int(11)</type>
+					<null>N</null>
+					<auto_increment>S</auto_increment>
+					<primary_key>S</primary_key>
+				</field>
+				<field>
+					<name>posicion</name>
+					<description>Posicion</description>
+					<type>int(2)</type>
+					<in_list>S</in_list>
+                                        <info>Posición en la clasificación</info>
+				</field>
+				<field>
+					<name>id_torneos_equipos</name>
+					<description>Equipo</description>
+					<type>int(11)</type>
+					<in_list>S</in_list>
+					<entity_ref>19</entity_ref>
+                                        <info>Equipo del torneo que se encuentra en esta posición</info>
+				</field>
+				<field>
+					<name>puntos</name>
+					<description>Puntos</description>
+					<type>int(3)</type>
+                                        <info>Puntos del equipo en la jornada a la que pertenece la clasificación</info>
+				</field>
+				<field>
+					<name>jugados</name>
+					<description>Partidos jugados</description>
+					<type>int(2)</type>
+                                        <info>Partidos jugados por el equipo en la jornada a la que pertenece la clasificación</info>
+				</field>
+				<field>
+					<name>ganados</name>
+					<description>Partidos ganados</description>
+					<type>int(2)</type>
+                                        <info>Partidos ganados por el equipo en la jornada a la que pertenece la clasificación</info>
+				</field>
+				<field>
+					<name>empatados</name>
+					<description>Partidos empatados</description>
+					<type>int(2)</type>
+                                        <info>Partidos empatados por el equipo en la jornada a la que pertenece la clasificación</info>
+				</field>
+				<field>
+					<name>perdidos</name>
+					<description>Partidos perdidos</description>
+					<type>int(2)</type>
+                                        <info>Partidos perdidos por el equipo en la jornada a la que pertenece la clasificación</info>
+				</field>
+				<field>
+					<name>favor</name>
+					<description>Goles/Puntos a favor</description>
+					<type>int(4)</type>
+                                        <info>Goles o puntos totales a favor del equipo en la jornada a la que pertenece la clasificación</info>
+				</field>
+				<field>
+					<name>contra</name>
+					<description>Goles/Puntos en contra</description>
+					<type>int(4)</type>
+                                        <info>Goles o puntos totales en contra del equipo en la jornada a la que pertenece la clasificación</info>
+				</field>
+			</fields>
+		</entity>
+	</entity>
+	<entity>
+		<id_entity>16</id_entity>
+		<title>Imagenes</title>
+		<table>t_imagenes</table>
+		<help_file_list>imagenes.html</help_file_list>
+		<help_file_detail>imagenes.html</help_file_detail>
+		<by_user>S</by_user>
+		<fields>
+			<field>
+				<name>id_imagen</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>titulo</name>
+				<description>Título</description>
+				<type>varchar(255)</type>
+				<in_list>S</in_list>
+				<combo_description>S</combo_description>
+                                <info>Título de la imagen</info>
+			</field>
+			<field>
+				<name>imagen</name>
+				<description>Imagen</description>
+				<type>varchar(255)</type>
+				<file>S</file>
+				<in_list>S</in_list>
+				<sizes>
+					<size>
+						<width>280</width>
+					</size>
+					<size>
+						<width>500</width>
+					</size>
+				</sizes>
+			</field>
+		</fields>
+	</entity>
+	<entity>
+		<id_entity>17</id_entity>
+		<title>Videos</title>
+		<table>t_videos</table>
+		<help_file_list>videos.html</help_file_list>
+		<help_file_detail>videos.html</help_file_detail>
+		<by_user>S</by_user>
+		<fields>
+			<field>
+				<name>id_video</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>titulo</name>
+				<description>Título</description>
+				<type>varchar(255)</type>
+				<in_list>S</in_list>
+				<combo_description>S</combo_description>
+                                <info>Título del video</info>
+			</field>
+			<field>
+				<name>video</name>
+				<description>Html Embed</description>
+				<type>text</type>
+                                <info>Copia de Youtube o pagina similar de videos el html embed que te proporcionan y pegalo aquí</info>
+			</field>
+		</fields>
+	</entity>
+	<entity>
+		<id_entity>18</id_entity>
+		<title>Enlaces</title>
+		<table>t_enlace</table>
+		<help_file_list>enlaces.html</help_file_list>
+		<help_file_detail>enlaces.html</help_file_detail>
+		<by_user>S</by_user>
+		<fields>
+			<field>
+				<name>id_enlace</name>
+				<description>id</description>
+				<type>int(11)</type>
+				<auto_increment>S</auto_increment>
+				<primary_key>S</primary_key>
+			</field>
+			<field>
+				<name>titulo</name>
+				<description>Titulo</description>
+				<type>varchar(255)</type>
+				<in_list>S</in_list>
+				<combo_description>S</combo_description>
+                                <info>Que es lo que enlaza</info>
+			</field>
+			<field>
+				<name>url</name>
+				<description>Url</description>
+				<type>varchar(255)</type>
+                                <info>Url a la que enlaza</info>
+			</field>
+		</fields>
+	</entity>
+	<entity>
+		<id_entity>20</id_entity>
+		<title>Solicitudes Identidad</title>
+		<help_file_list>identidad.html</help_file_list>
+		<help_file_detail>identidad.html</help_file_detail>
+		<hooked>solicitudes.php</hooked>
+	</entity>
+	
+</config>
