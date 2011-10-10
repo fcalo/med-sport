@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /assets
+Disallow: /admin/
+Disallow: /back/
+Disallow: /PEAR/
+Disallow: /cgi-bin/
+Disallow: /js/
